@@ -9,19 +9,21 @@ import EducationScreen from './Education';
 type RootStackParamList = {
     Home: undefined;
     Education: { apiKey: string; integratorUserId: string };
-  };
-  
+};
+
 const Stack = createStackNavigator<RootStackParamList>();
 
 export default function AppNavigator() {
-  return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={Home} options={{ title: 'Aston SDK TestApp' }} />
-        <Stack.Screen name="Education" options={{ title: 'Second Screen' }}>
-            {(params) => <EducationScreen route={params.route} />}
-        </Stack.Screen>
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+    return (
+        <NavigationContainer>
+            <Stack.Navigator screenOptions={{
+                headerShown: false,
+            }} initialRouteName="Home">
+                <Stack.Screen name="Home" component={Home} />
+                <Stack.Screen name="Education">
+                    {(params) => <EducationScreen route={params.route} />}
+                </Stack.Screen>
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
 }
