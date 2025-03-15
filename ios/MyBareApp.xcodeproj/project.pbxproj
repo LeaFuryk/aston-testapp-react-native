@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* MyBareAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MyBareAppTests.m */; };
-		0DF194B9037C0E0CD3410EC5 /* libPods-MyBareApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEC08DD09D6B05E44CD93D2 /* libPods-MyBareApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2C2FE23B690F713106A3CCE5 /* libPods-MyBareApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA6325E9174CD074449DBD9 /* libPods-MyBareApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		D245C2CD9910744B417A380F /* libPods-MyBareApp-MyBareAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 773FAFCE0261EDAF4E92FC73 /* libPods-MyBareApp-MyBareAppTests.a */; };
+		D8AECB89A5F73C529BC77FF3 /* libPods-MyBareApp-MyBareAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0B4818C2CAA751C56F68D3 /* libPods-MyBareApp-MyBareAppTests.a */; };
 		E4692C6E5A238E57588E689B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BECFDDA50B37FEC6D0758AF4 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,8 @@
 		00E356EE1AD99517003FC87E /* MyBareAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBareAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MyBareAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBareAppTests.m; sourceTree = "<group>"; };
+		0645BC01EF29631E8374F5F5 /* Pods-MyBareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBareApp.debug.xcconfig"; path = "Target Support Files/Pods-MyBareApp/Pods-MyBareApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0C0B4818C2CAA751C56F68D3 /* libPods-MyBareApp-MyBareAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyBareApp-MyBareAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* MyBareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyBareApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = MyBareApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,15 +40,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyBareApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyBareApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = MyBareApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		1EEC08DD09D6B05E44CD93D2 /* libPods-MyBareApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyBareApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		297C1A472DDCADDFA6375508 /* Pods-MyBareApp-MyBareAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBareApp-MyBareAppTests.release.xcconfig"; path = "Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		42FD8777A44E806681E01031 /* Pods-MyBareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBareApp.release.xcconfig"; path = "Target Support Files/Pods-MyBareApp/Pods-MyBareApp.release.xcconfig"; sourceTree = "<group>"; };
-		773FAFCE0261EDAF4E92FC73 /* libPods-MyBareApp-MyBareAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyBareApp-MyBareAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		275AF069D80AD319B671BC1A /* Pods-MyBareApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBareApp.release.xcconfig"; path = "Target Support Files/Pods-MyBareApp/Pods-MyBareApp.release.xcconfig"; sourceTree = "<group>"; };
+		6BAF1479F786990545D1080D /* Pods-MyBareApp-MyBareAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBareApp-MyBareAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyBareApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D19C8E9C95D66A76038412B /* Pods-MyBareApp-MyBareAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBareApp-MyBareAppTests.release.xcconfig"; path = "Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		BECFDDA50B37FEC6D0758AF4 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = MyBareApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		D89F5F90427D975894C81EE3 /* Pods-MyBareApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBareApp.debug.xcconfig"; path = "Target Support Files/Pods-MyBareApp/Pods-MyBareApp.debug.xcconfig"; sourceTree = "<group>"; };
-		E0B492A0DF8AE5462400FD9E /* Pods-MyBareApp-MyBareAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBareApp-MyBareAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EDA6325E9174CD074449DBD9 /* libPods-MyBareApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyBareApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D245C2CD9910744B417A380F /* libPods-MyBareApp-MyBareAppTests.a in Frameworks */,
+				D8AECB89A5F73C529BC77FF3 /* libPods-MyBareApp-MyBareAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF194B9037C0E0CD3410EC5 /* libPods-MyBareApp.a in Frameworks */,
+				2C2FE23B690F713106A3CCE5 /* libPods-MyBareApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				1EEC08DD09D6B05E44CD93D2 /* libPods-MyBareApp.a */,
-				773FAFCE0261EDAF4E92FC73 /* libPods-MyBareApp-MyBareAppTests.a */,
+				EDA6325E9174CD074449DBD9 /* libPods-MyBareApp.a */,
+				0C0B4818C2CAA751C56F68D3 /* libPods-MyBareApp-MyBareAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,10 +145,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D89F5F90427D975894C81EE3 /* Pods-MyBareApp.debug.xcconfig */,
-				42FD8777A44E806681E01031 /* Pods-MyBareApp.release.xcconfig */,
-				E0B492A0DF8AE5462400FD9E /* Pods-MyBareApp-MyBareAppTests.debug.xcconfig */,
-				297C1A472DDCADDFA6375508 /* Pods-MyBareApp-MyBareAppTests.release.xcconfig */,
+				0645BC01EF29631E8374F5F5 /* Pods-MyBareApp.debug.xcconfig */,
+				275AF069D80AD319B671BC1A /* Pods-MyBareApp.release.xcconfig */,
+				6BAF1479F786990545D1080D /* Pods-MyBareApp-MyBareAppTests.debug.xcconfig */,
+				9D19C8E9C95D66A76038412B /* Pods-MyBareApp-MyBareAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -160,12 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyBareAppTests" */;
 			buildPhases = (
-				941E2C5F087A2DCD1DABF6D7 /* [CP] Check Pods Manifest.lock */,
+				1D42B192460A3A2E3161A8C4 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				0D5B4AA23197EDD12AC57CBB /* [CP] Embed Pods Frameworks */,
-				84DA070699AE6863B9085E1B /* [CP] Copy Pods Resources */,
+				C818CA090851EBB79569BF15 /* [CP] Embed Pods Frameworks */,
+				98539AB7476B6B054F6A50D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,13 +181,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyBareApp" */;
 			buildPhases = (
-				AD10EBFC55C80A983ADD2AC3 /* [CP] Check Pods Manifest.lock */,
+				47960677D97EC6020D1C1B9F /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				CB470C2B7901FBF8F99FE590 /* [CP] Embed Pods Frameworks */,
-				F3C50CF876A56213E4711B41 /* [CP] Copy Pods Resources */,
+				5D1F92D08184E28B3A2282AD /* [CP] Embed Pods Frameworks */,
+				E4946F784FF1984B5D611CBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,41 +271,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		0D5B4AA23197EDD12AC57CBB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		84DA070699AE6863B9085E1B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		941E2C5F087A2DCD1DABF6D7 /* [CP] Check Pods Manifest.lock */ = {
+		1D42B192460A3A2E3161A8C4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,7 +293,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AD10EBFC55C80A983ADD2AC3 /* [CP] Check Pods Manifest.lock */ = {
+		47960677D97EC6020D1C1B9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,7 +315,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CB470C2B7901FBF8F99FE590 /* [CP] Embed Pods Frameworks */ = {
+		5D1F92D08184E28B3A2282AD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,7 +332,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBareApp/Pods-MyBareApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F3C50CF876A56213E4711B41 /* [CP] Copy Pods Resources */ = {
+		98539AB7476B6B054F6A50D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C818CA090851EBB79569BF15 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBareApp-MyBareAppTests/Pods-MyBareApp-MyBareAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4946F784FF1984B5D611CBC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -416,7 +416,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0B492A0DF8AE5462400FD9E /* Pods-MyBareApp-MyBareAppTests.debug.xcconfig */;
+			baseConfigurationReference = 6BAF1479F786990545D1080D /* Pods-MyBareApp-MyBareAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -443,7 +443,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 297C1A472DDCADDFA6375508 /* Pods-MyBareApp-MyBareAppTests.release.xcconfig */;
+			baseConfigurationReference = 9D19C8E9C95D66A76038412B /* Pods-MyBareApp-MyBareAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -467,7 +467,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D89F5F90427D975894C81EE3 /* Pods-MyBareApp.debug.xcconfig */;
+			baseConfigurationReference = 0645BC01EF29631E8374F5F5 /* Pods-MyBareApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -494,7 +494,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42FD8777A44E806681E01031 /* Pods-MyBareApp.release.xcconfig */;
+			baseConfigurationReference = 275AF069D80AD319B671BC1A /* Pods-MyBareApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

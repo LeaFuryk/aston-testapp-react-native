@@ -1,22 +1,22 @@
 import React from "react";
 import { AstonSDK, AstonNavigator } from '@aston/sdk';
-import { View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { RootStackParamList } from "./Navigation";
+import { StackNavigationProp } from "@react-navigation/stack";
 
 type EducationScreenProps = {
-    route: { params: { apiKey: string; integratorUserId: string } };
-};
-  
-AstonSDK.init({
-    apiKey: "2a5809bf-3094-412d-a98e-58c94bf48c73-5563e8d723fe97eb455f8bf8224a6cba" // testappsdk
-})
+    apiKey: string; 
+    integratorUserId: string 
+}
 
-export default function EducationScreen({ route }: EducationScreenProps) {
-    const { apiKey, integratorUserId } = route.params;
-    // const navigation = useNavigation<EducationScreenProps>();
+export default function EducationScreen({ apiKey, integratorUserId }: EducationScreenProps) {
+    const navigation = useNavigation<StackNavigationProp<RootStackParamList>>();
+
+    AstonSDK.init({
+        apiKey
+    })
 
   return (
-    // <View></View>
-    <AstonNavigator integratorUserId='2' onExit={() => { console.log("exit") }} />
+    <AstonNavigator integratorUserId={integratorUserId} onExit={() => { navigation.goBack() }} />
   );
 }
