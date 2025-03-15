@@ -8,8 +8,8 @@ import { RootStackParamList } from "./Navigation";
 type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
 
 export default function Index() {
-    const [apiKey, setApiKey] = useState("test-apikey")
-    const [integratorUserId, setIntegratorUserId] = useState("test-user-id")
+    const [apiKey, setApiKey] = useState("")
+    const [integratorUserId, setIntegratorUserId] = useState("")
     const navigation = useNavigation<HomeScreenNavigationProp>();
 
     const onTap = () => {
@@ -25,7 +25,7 @@ export default function Index() {
                         style={styles.input}
                         onChangeText={setApiKey}
                         value={apiKey}
-                        placeholder="Api key"
+                        placeholder="API KEY"
                         placeholderTextColor='gray'
                     />
 
@@ -34,6 +34,7 @@ export default function Index() {
                         onChangeText={setIntegratorUserId}
                         value={integratorUserId}
                         placeholderTextColor='gray'
+                        placeholder="Integrator User ID"
                     />
                     <Button title="Open SDK" onPress={onTap} />
                 </View>
@@ -49,7 +50,7 @@ const styles = StyleSheet.create({
     container: {
         paddingVertical: 16,
         paddingHorizontal: Platform.OS === "web" ? 8 : 16,
-        margin: 'auto'
+        marginVertical: 'auto',
     },
     contentContainer: {
         display: 'flex',
@@ -62,6 +63,7 @@ const styles = StyleSheet.create({
         marginBottom: 8
     },
     input: {
+        width:'100%',
         borderWidth: 1.5,
         borderColor: 'black',
         paddingHorizontal: 20,
